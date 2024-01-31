@@ -1,18 +1,20 @@
 .container {
   position: absolute;
-  bottom: 20px;
-  right: 0;
+  bottom: 70px;
+  left: 0;
 }
 
 .content {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d0d0d;
-  color: white;
+  background-color: #ffffff;
+  border: 1px solid #cac4c5;
+  border-radius: 6px;
+  color: #808080;
   font-size: 12px;
   font-family: "Segoe UI";
   font-weight: bold;
-  height: 40px;
-  padding: 0px 20px;
+  height: 20px;
+  padding: 0px 10px;
 }

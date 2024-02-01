@@ -9,6 +9,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPriceComponent } from './components/card/card-price/card-price.component';
 import { MenuSonyComponent } from './components/menu-sony/menu-sony.component';
+import { CardPhotoComponent } from './components/card/card-photo/card-photo.component';
+import { LinksBarComponent } from './components/menu-bar/links-bar/links-bar.component';
+import { LogoBarComponent } from './components/menu-bar/logo-bar/logo-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,13 @@ import { MenuSonyComponent } from './components/menu-sony/menu-sony.component';
     MenuBarComponent,
     CardLabelComponent,
     CardPriceComponent,
-    MenuSonyComponent
+    MenuSonyComponent,
+    CardPhotoComponent,
+    LinksBarComponent,
+    LogoBarComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -10,9 +10,3 @@
   height: 20px;
   margin: 8px 8px 8px;
 }
-
-@media screen and (max-width: 720px) {
-  .container {
-    width: 720px;
-  }
-}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card_img {
+  width: 200px;
+  border-radius: 8px;
+  transition: transform 0.8s;
+}
+
+.card_img:hover {
+  transform: scale(1.1);
+}

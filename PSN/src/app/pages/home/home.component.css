@@ -1,5 +1,4 @@
 .home_container {
-  width: 100%;
   margin: auto;
   padding-top: 50px;
   display: flex;
@@ -8,8 +7,12 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 720px) {
-  .home_container {
-    width: 720px;
-  }
+.card_container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 50px;
 }
